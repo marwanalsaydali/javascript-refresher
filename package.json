@@ -1,0 +1,22 @@
+{
+  "name": "javascript-refresher",
+  "version": "1.0.0",
+  "description": "Refreshing JavaScript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marwanalsaydali/javascript-refresher.git"
+  },
+  "keywords": [
+    "JavaSctipt"
+  ],
+  "author": "Marwan Alsaydali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marwanalsaydali/javascript-refresher/issues"
+  },
+  "homepage": "https://github.com/marwanalsaydali/javascript-refresher#readme"
+}
