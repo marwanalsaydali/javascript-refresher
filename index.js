@@ -39,3 +39,28 @@
 // };
 // sayHi(); 
 
+// JavaScript Operators
+// Arithmetic Operators + - * % ** ++x or x++  /
+// Assignment Operators x = x+ 3 or x += 3
+// Comparison Operators > < >= <= 
+// Equality Operators stric equalty === or lose equality == 
+// Ternary Operator if / else but in short let x = y > 3 ? "yes" : "no" ;
+// Logical Operators And && or || is Not !true
+
+// Logical Operators with Non-booleans
+// Falesy (undefind, null, 0,"",NaN, false)
+// Truthy ( string, numbers not zero, )
+// if we have false || 1 || 3 will return 1 because it is first truthy
+
+// Bitwise Operators 
+
+// if then
+// if (condition){
+//   statment 
+// } else {
+//   statment
+// } elseif {
+//   statment 
+// }
+
+// Select statment
