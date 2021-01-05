@@ -64,3 +64,56 @@
 // }
 
 // Select statment
+// let name;
+
+// switch (name){
+//   case 'Marwan':
+//      console.log('Marwan');
+//      break;
+
+//   case 'A;saydali':
+//    console,log('this is last name');
+//    break;
+
+//    default:
+//       console.log("default")
+// }
+
+// loops
+// For
+// for (let i=0; i<5; i++){
+//   //do someting
+// }
+
+// while 
+// let i = 0;
+// while (i<5){
+//   //do something..
+//   //i++;
+// }
+
+// do while same like while loop just at lease it will run once
+// let i = 0;
+// do {
+   //do something..
+   // i++
+// } while (i<5);
+
+// for in
+// let person = {
+//   name: "Marwan",
+//   age: 38
+// }
+// for (let jey in person)
+//   console.log (key, person['key'])
+
+// let skills = ['HTML', 'CSS', 'JavaScript'];
+// for (let index in skills)
+// console.log(index, skills[index])
+
+// for of
+
+
+// let skills = ['HTML', 'CSS', 'JavaScript'];
+// for (let skill in skills)
+// console.log(skill)
