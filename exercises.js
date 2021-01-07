@@ -82,3 +82,59 @@ function showString(obj){
         console.log(key, obj[key]);
     }
 }
+
+// sum all numbers withing a limit that can be divied on 3 or 5
+
+function sum(limit){
+    let sum = 0;
+    for ( let i=0; i <= limit; i++)
+    if ( i % 3 === 0 || i % 5 ===0 )
+    sum += i
+
+    return sum;
+}
+
+// calculate the avrage of class grades and show result
+// 0 - 59 F
+// 60-69 F
+// 70-79 C
+// 80- 89 D
+// 90 - 100 A
+
+function calculateGrade(marks){
+    let sum =0;
+    for (let mark of marks)
+    sum += mark;
+    let avrage = sum / marks.length ;
+    if (avrage < 60) return 'F';
+    if (avrage < 70) return 'D';
+    if (avrage < 80) return 'C';
+    if (avrage < 90) return 'B';
+    return 'A';
+
+}
+// Show stars
+function showStars(rows){
+    for (let row = 1;row <= rows; row++){
+        let pattern = "";
+        for (let i=0;i<row;i++){
+            pattern += '*';
+            console.log(pattern);
+        }
+    }
+}
+// find prime number that only can evently divid on it self or 1
+
+function primeFinder(range){
+    for (let number = 2; number < range;  number++) {
+        let isPrime = true;
+        for (let factor =2; factor < number; factor++){
+           if (number % factor ===0 ){
+              isPrime = false;
+            break;  
+           }
+            
+        }
+        if (isPrime) console.log(number)
+    }
+}
